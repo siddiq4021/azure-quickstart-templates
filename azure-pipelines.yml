@@ -5,12 +5,12 @@ trigger:
 - none
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubantu-latest'
 
 steps:
 - task: CopyFiles@2
   inputs:
-    SourceFolder: 'quickstarts/microsoft.web/webapp-basic-windows/'
+    SourceFolder: 'quickstarts/microsoft.web/webapp-linux-managed-mysql/'
     Contents: '**'
     TargetFolder: '$(build.artifactstagingdirectory)'
 
