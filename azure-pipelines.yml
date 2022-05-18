@@ -1,5 +1,5 @@
 variables:
-  ARM_PASS: (administratorLoginPassword)
+  ARM_PASS: $(adminPass)
 
 trigger:
 - none
