@@ -5,7 +5,7 @@ trigger:
 - none
 
 pool:
-  vmImage: 'ubantu-latest'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: CopyFiles@2
